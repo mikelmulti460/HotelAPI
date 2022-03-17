@@ -1,9 +1,9 @@
 # Booking HotelAPI
 ## 
 
-[![N|Solid](https://svgshare.com/i/eCY.svg)](https://nodesource.com/products/nsolid)
+[![N|Solid](https://svgshare.com/i/eCY.svg)](#)
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](#)
 
 API to make hotel reservations
 
@@ -36,7 +36,7 @@ HotelsApi requires [Python](https://www.python.org/downloads/) v3.8+ to run.
 Install the dependencies and devDependencies and start the server.
 
 ```sh
-pip install requirements.txt
+pip install -r requirements.txt
 python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver localhost:8000
