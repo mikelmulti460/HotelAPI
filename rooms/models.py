@@ -29,8 +29,8 @@ class Room(models.Model):
             bookings = self.booking_set.all()
             for booking in bookings:
                 if booking.id != booking_id:
-                    if (booking.check_in <= check_in <= booking.check_out
-                        or booking.check_in <= check_out <= booking.check_out):
+                    if (check_in <= booking.check_in <= check_out
+                        or check_in <= booking.check_out <= check_out):
                         return False
             return True
         return False
