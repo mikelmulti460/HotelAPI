@@ -25,7 +25,7 @@ API to make hotel reservations
        rooms
 - **api/v1/rooms/<int:id>/** - Access to especific room
 - **api/v1/rooms/<int:id>/booking/** - Access to booking list
-    -- This endpoint was chosen to continue the booking process so that the backend developer has data on current bookings.
+    -- This endpoint was chosen to continue the booking process so that the front-end developer has data on current bookings.
 - **api/v1/rooms/<int:id>/booking/<int:id>** - This endpoint was chosen to facilitate access to the reservation and avoid additional parameters in the query
 
 
